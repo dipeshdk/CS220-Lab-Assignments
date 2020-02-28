@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/users/btech/dipeshk/Desktop/rippling_led/rippling_led_top_isim_beh.exe" -prj "/users/btech/dipeshk/Desktop/rippling_led/rippling_led_top_beh.prj" "work.rippling_led_top" "work.glbl" 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/media/dipeshk/hacker/CS220Labs/Lab3_3/adding_five_four_bit_numbers/five_4_bit_numbers_top_isim_beh.exe" -prj "/media/dipeshk/hacker/CS220Labs/Lab3_3/adding_five_four_bit_numbers/five_4_bit_numbers_top_beh.prj" "work.five_4_bit_numbers_top" "work.glbl" 

@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "/media/dipeshk/hacker/CS220Labs/Lab3_2/rippling_led/rippling_led.xst" -ofn "/media/dipeshk/hacker/CS220Labs/Lab3_2/rippling_led/rippling_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rippling_led.ucf -p xc3s500e-fg320-4 rippling_led.ngc rippling_led.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rippling_led_map.ncd rippling_led.ngd rippling_led.pcf 
+xst -intstyle ise -ifn "/users/btech/dipeshk/Desktop/rippling_led/rippling_led.xst" -ofn "/users/btech/dipeshk/Desktop/rippling_led/rippling_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rippling_led.ucf -p xc3s500e-fg320-4 rippling_led.ngc rippling_led.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rippling_led_map.ncd rippling_led.ngd rippling_led.pcf 
+par -w -intstyle ise -ol high -t 1 rippling_led_map.ncd rippling_led.ncd rippling_led.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rippling_led.twx rippling_led.ncd -o rippling_led.twr rippling_led.pcf -ucf rippling_led.ucf 
+bitgen -intstyle ise -f rippling_led.ut rippling_led.ncd 

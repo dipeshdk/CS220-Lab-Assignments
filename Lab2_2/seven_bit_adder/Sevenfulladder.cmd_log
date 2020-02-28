@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/media/debarsho/hacker/CS220Labs/Lab2_2/seven_bit_adder/Sevenfulladder.xst" -ofn "/media/debarsho/hacker/CS220Labs/Lab2_2/seven_bit_adder/Sevenfulladder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Sevenfulladder.ucf -p xc3s500e-fg320-4 Sevenfulladder.ngc Sevenfulladder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Sevenfulladder_map.ncd Sevenfulladder.ngd Sevenfulladder.pcf 
+par -w -intstyle ise -ol high -t 1 Sevenfulladder_map.ncd Sevenfulladder.ncd Sevenfulladder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Sevenfulladder.twx Sevenfulladder.ncd -o Sevenfulladder.twr Sevenfulladder.pcf -ucf Sevenfulladder.ucf 
+bitgen -intstyle ise -f Sevenfulladder.ut Sevenfulladder.ncd 

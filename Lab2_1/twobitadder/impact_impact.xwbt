@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/media/debarsho/hacker/CS220Labs/Lab2_1/twobitadder/impact.xsl
+OUTFILE=/media/debarsho/hacker/CS220Labs/Lab2_1/twobitadder/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/media/debarsho/hacker/CS220Labs/Lab2_1/twobitadder
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,29 @@
+Command line:
+   two_bit_adder_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  34377
+
+Sun Jan 26 16:02:34 2020
+
+
+ Elaboration Time: 0.04 sec
+
+ Current Memory Usage: 239.518 Meg
+
+ Total Signals          : 29
+ Total Nets             : 22
+ Total Signal Drivers   : 9
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 10
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 102
+Total Line Count : 18
+
+ Total Simulation Time: 0.05 sec
+
+ Current Memory Usage: 315.019 Meg
+
+Sun Jan 26 16:02:49 2020
+

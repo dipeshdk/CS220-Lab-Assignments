@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/media/dipeshk/hacker/CS220Labs/Lab3_1/blinking_led/blinking_led_top_isim_beh.exe" -prj "/media/dipeshk/hacker/CS220Labs/Lab3_1/blinking_led/blinking_led_top_beh.prj" "work.blinking_led_top" "work.glbl" 

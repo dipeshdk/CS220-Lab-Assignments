@@ -1,0 +1,2 @@
+ISim log file
+Running: /media/dipeshk/hacker/CS220Labs/Lab2_1/twobitadder/two_bit_adder_top_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /media/dipeshk/hacker/CS220Labs/Lab2_1/twobitadder/two_bit_adder_top_isim_beh.wdb 

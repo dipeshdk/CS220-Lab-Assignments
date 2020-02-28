@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon Jan 20 14:11:18 2020
+# Process ID: 15131
+# Log file: /media/dipeshk/hacker/CS220Labs/Lab2_1/twobitadder/planAhead_run_2/planAhead.log
+# Journal file: /media/dipeshk/hacker/CS220Labs/Lab2_1/twobitadder/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /media/dipeshk/hacker/CS220Labs/Lab2_1/twobitadder/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVTTL [get_ports [list carry]]
+save_constraints

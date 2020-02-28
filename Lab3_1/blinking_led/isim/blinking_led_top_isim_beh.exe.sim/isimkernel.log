@@ -1,0 +1,29 @@
+Command line:
+   blinking_led_top_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59081
+
+Mon Jan 27 14:22:53 2020
+
+
+ Elaboration Time: 0.03 sec
+
+ Current Memory Usage: 239.522 Meg
+
+ Total Signals          : 15
+ Total Nets             : 15
+ Total Signal Drivers   : 7
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 12
+ Total Traceable Variables  : 21
+ Total Scalar Nets and Variables : 129
+Total Line Count : 36
+
+ Total Simulation Time: 0.03 sec
+
+ Current Memory Usage: 315.023 Meg
+
+Mon Jan 27 14:25:43 2020
+

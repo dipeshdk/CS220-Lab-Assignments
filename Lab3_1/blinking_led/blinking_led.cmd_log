@@ -1,0 +1,7 @@
+xst -intstyle ise -ifn "/media/dipeshk/hacker/CS220Labs/Lab3_1/blinking_led/blinking_led.xst" -ofn "/media/dipeshk/hacker/CS220Labs/Lab3_1/blinking_led/blinking_led.syr" 
+xst -intstyle ise -ifn "/media/dipeshk/hacker/CS220Labs/Lab3_1/blinking_led/blinking_led.xst" -ofn "/media/dipeshk/hacker/CS220Labs/Lab3_1/blinking_led/blinking_led.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc blinking_led.ucf -p xc3s500e-fg320-4 blinking_led.ngc blinking_led.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o blinking_led_map.ncd blinking_led.ngd blinking_led.pcf 
+par -w -intstyle ise -ol high -t 1 blinking_led_map.ncd blinking_led.ncd blinking_led.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml blinking_led.twx blinking_led.ncd -o blinking_led.twr blinking_led.pcf -ucf blinking_led.ucf 
+bitgen -intstyle ise -f blinking_led.ut blinking_led.ncd 

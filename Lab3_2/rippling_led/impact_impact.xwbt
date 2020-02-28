@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/users/btech/dipeshk/Desktop/rippling_led/impact.xsl
+OUTFILE=/users/btech/dipeshk/Desktop/rippling_led/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/users/btech/dipeshk/Desktop/rippling_led
+LICENSE=iMPACT
+USER_INFO=iMPACT

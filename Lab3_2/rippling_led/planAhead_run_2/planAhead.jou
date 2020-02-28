@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Mon Jan 27 14:42:30 2020
+# Process ID: 17043
+# Log file: /users/btech/dipeshk/Desktop/rippling_led/planAhead_run_2/planAhead.log
+# Journal file: /users/btech/dipeshk/Desktop/rippling_led/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /users/btech/dipeshk/Desktop/rippling_led/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
